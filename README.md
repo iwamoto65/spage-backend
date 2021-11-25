@@ -1,5 +1,5 @@
 ## 環境構築
-①`git clone ${url}`でローカルにリポジトリを持ってくる<br>
+①`git clone git@github.com:iwamoto65/spage-backend.git`でローカルにリポジトリを持ってくる<br>
 ②ルートディレクトリで`docker-compose build`をする<br>
 ③imageが作成されたら`docker-compose up`でコンテナを立ち上げる
 

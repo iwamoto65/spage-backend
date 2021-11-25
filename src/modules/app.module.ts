@@ -8,7 +8,7 @@ import { join } from 'path/posix';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: 'spage_database',
       port: 3306,
       username: 'root',
       password: 'password',

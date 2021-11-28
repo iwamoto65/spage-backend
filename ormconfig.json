@@ -1,0 +1,14 @@
+{
+  "type": "mysql",
+  "host": "spage_database",
+  "port": 3306,
+  "username": "spage_user",
+  "password": "password",
+  "database": "spage",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "migrations": ["migration/*.ts"],
+  "cli": {
+    "migrationsDir": "migration"
+  },
+  "synchronize": true
+}
